@@ -1,0 +1,32 @@
+{
+    //Configuração do thema
+    "workbench.colorTheme": "Dracula",
+    
+    //Configuração da fonte 
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+
+    //Codigo que define o "Materal icon theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    
+    //Emment suport JavaScripReact
+    "emmet.syntaxProfiles": {
+        "javascrip": "js",
+},
+    "emmet.syntaxProfiles": {
+    "javascrip": "jsx",
+},
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+ },
+ "php.validate.executablePath":"/home/felipecn/.asdf/installs/php/7.4.1/bin/php"
+}
+
+    //power mode codes enable
+    //"powermode.enabled": true,
+    //"files.autoSave": "afterDelay"
+
