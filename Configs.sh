@@ -1,3 +1,6 @@
+mkdir ~/.config/Code
+mkdir ~/.config/User
+
 cp settings.json ~/.config/Code/User/settings.json
 
 #-> Extencions Intall
