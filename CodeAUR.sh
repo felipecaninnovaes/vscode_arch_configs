@@ -1,5 +1,5 @@
-mkdir temp_i
-cd temp_i
+mkdir ~/temp_i
+cd ~/temp_i
 
 #-> YAY (AUR suport)
 git clone https://aur.archlinux.org/yay.git
@@ -10,4 +10,4 @@ makepkg -si
 yay -S visual-studio-code-bin --noconfirm
 
 cd ..
-rm -r temp_i
+rm -r ~/temp_i
