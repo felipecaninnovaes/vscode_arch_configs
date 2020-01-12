@@ -1,6 +1,3 @@
-mkdir temp_i
-cd temp_i
-
 #-> YAY (AUR suport)
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -15,5 +12,3 @@ sudo systemctl start snapd.socket
 #-> VSCode Install
 snap install code --classic
 
-cd ..
-rm -r temp_i
