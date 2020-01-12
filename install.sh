@@ -9,11 +9,3 @@ if [ $exitstatus = 0 ]; then
 else
     echo ""
 fi
-
-if whiptail --title "Instalar Config VSCode" --yesno "Você deseja instalar as configs do VSCode" 10 50
-then
-   ./Configs.sh
-   echo "Obrigado por ter instalado"
-else
-   echo "Obrigado por ter instalado"
-fi

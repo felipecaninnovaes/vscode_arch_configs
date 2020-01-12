@@ -1,6 +1,5 @@
 mkdir ~/.config/Code
-mkdir ~/.config/User
-
+mkdir ~/.config/Code/User
 cp settings.json ~/.config/Code/User/settings.json
 
 #-> Extencions Intall
@@ -19,7 +18,6 @@ code --install-extension ms-python.python
 code --install-extension ms-vscode.cpptools
 code --install-extension naumovs.color-highlight
 code --install-extension pkief.material-icon-theme
-code --install-extension platformio.platformio-ide
 code --install-extension rifi2k.format-html-in-php
 code --install-extension rocketseat.rocketseatreactjs
 code --install-extension rocketseat.rocketseatreactnative
